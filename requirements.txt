@@ -1,0 +1,7 @@
+flask
+pymongo
+altair
+pandas
+requests
+pillow
+ray

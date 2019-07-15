@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monitoring Histogram</title>
+</head>
+<body>
+	<a href="/">Home</a>
+
+
+    {% include 'monitor.html' %}
+
+	{% for table in tables %}
+	            {{titles[loop.index]}}
+	            {{ table|safe }}
+	{% endfor %}
+</body>
+</html>
